@@ -1,21 +1,29 @@
-/////////////////////////////////////////////////
-//
-//  Display "*" for 5 times
-//
-/////////////////////////////////////////////////
+
 #include<stdio.h>
 
-void Accept(int iNo){
-    int iCnt=0;
+/////////////////////////////////////////////////
+//
+//  Function Name   :   Accept
+//  Description     :   Display "*" for 5 times
+//  Author          :   Vaidehi Vishwanath Kale
+//  Date            :   31/07/2023
+//
+/////////////////////////////////////////////////
 
-    for(iCnt=1;iCnt<=5;iCnt++){
+void Accept(int iNo)
+{
+    int iCnt = 0;
+
+    for(iCnt = 1;iCnt <= 5;iCnt++)
+    {
         printf("*");
     }
 }
 
-int main(){
-    int iValue=0;
-    iValue=5;
+int main()
+{
+    int iValue = 0;
+    iValue = 5;
 
     Accept(iValue);
     return 0;
